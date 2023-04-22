@@ -1,0 +1,39 @@
+/* Write your CSS code here */
+.container-item {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  align-items: flex-start;
+  /* border: 1px red solid; */
+  width: 80%;
+  margin: auto;
+}
+.heading {
+  color: black;
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 40px;
+}
+.avatar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 70%;
+  margin-bottom: 2%;
+}
+.avatar-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 200px;
+  margin-right: 3%;
+}
+.image-url {
+  width: 80%;
+}
+.content {
+  color: #555555;
+  font-family: 'roboto';
+  font-weight: 400;
+  font-size: 15px;
+}
